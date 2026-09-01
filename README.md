@@ -10,8 +10,7 @@ Plain HTML/CSS/JS. No build step, no dependencies. Works on Vercel, Netlify, or 
 index.html    — the whole site (gallery, commissions, about, contact)
 styles.css    — retro / graffiti design system
 script.js     — lightbox for viewing paintings
-favicon.svg   — cactus logo
-images/       — painting photos
+images/       — logo, RB mark, paper texture, paintings, artist photos
 ```
 
 ## Deploy to GitHub + Vercel
