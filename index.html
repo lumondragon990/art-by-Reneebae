@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" href="images/rb-mark.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -30,15 +30,13 @@
   <main id="top">
 
     <!-- ============ HERO ============ -->
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="hero-inner">
-        <h1 class="visually-hidden">Reneebae Art Studio</h1>
-        <img class="hero-logo" src="images/reneebae-logo.jpg"
-             alt="Reneebae Art Studio — graffiti logo with desert cacti and blooming flowers" />
-        <p class="hero-sub">Original paintings &amp; collages by <strong>Renee Aliza Martinez</strong> — a little retro, a little graffiti, all heart. Made by hand in Houston, TX.</p>
+        <h1 class="hero-title">RENEEBAE</h1>
+        <p class="hero-tagline">Art Gallery&nbsp;&nbsp;|&nbsp;&nbsp;Custom Commissions&nbsp;&nbsp;|&nbsp;&nbsp;Hand-Painted Apparel&nbsp;&nbsp;|&nbsp;&nbsp;Houston,&nbsp;TX</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#gallery">See the paintings</a>
-          <a class="btn btn-ghost" href="#commissions">Order a custom piece</a>
+          <a class="btn btn-primary" href="#gallery">Start Now</a>
+          <a class="btn btn-ghost" href="#commissions">Order a Custom Piece</a>
         </div>
       </div>
       <p class="hero-ticker" aria-hidden="true">
@@ -147,6 +145,8 @@
 
     <!-- ============ ABOUT ============ -->
     <section class="about" id="about">
+      <img class="about-logo" src="images/reneebae-logo.jpg"
+           alt="Reneebae Art Studio — graffiti logo with desert cacti and blooming flowers" loading="lazy" />
       <div class="about-grid">
         <div class="about-photos">
           <img class="about-photo tilt-l" src="images/renee-portrait.jpg" alt="Renee Aliza Martinez, the artist behind Reneebae" />
@@ -176,6 +176,12 @@
   <footer class="footer">
     <img class="footer-mark" src="images/rb-mark.png" alt="" />
     <p>© <span id="year"></span> Renee Aliza Martinez · Reneebae. All artwork belongs to the artist.</p>
+    <p class="visitor-box">★ you are visitor #<span id="visitor-count">0000</span> ★</p>
+    <div class="footer-badges">
+      <span>made with ♥ in HTX</span>
+      <span>one-of-one only</span>
+      <span>thanks 4 stopping by</span>
+    </div>
   </footer>
 
   <!-- ============ LIGHTBOX ============ -->
